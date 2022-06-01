@@ -1,4 +1,5 @@
 @import url(../css/cdn.css);
+@import url(../css/pricing.css);
 
 * {
     margin: 0;
@@ -7,9 +8,37 @@
     list-style: none;
     text-decoration: none;
 }
+html {
+    font-family: "Open Sans", "Raleway", sans-serif;
+}
+section {
+    padding: 100px 0;
+}
 
 .container {
     max-width: 1170px;
     padding: 0 15px;
     margin: auto;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 36px;
+    font-family: "Raleway";
+    color: #212121;
+    text-align: center;
+    margin-bottom: 34px;
+}
+.line {
+width: 64px;
+border-top: 2px solid #E72424;
+margin: auto;
+margin-bottom: 34px;
+}  
+.title-description p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    text-align: center;
 }

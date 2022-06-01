@@ -1,0 +1,57 @@
+.pricing {
+ background: #F5F5F5;
+}
+.pricing-wrap {
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tariff {
+  width: 340px;
+  height: 468px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+li {
+  margin-bottom: 4px;
+}
+.tariff-name {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  background: #333333;
+  line-height: 50px;
+}
+.price {
+  font-family: "Raleway";
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  background-color: #333333;
+  line-height: 100px;
+
+}
+.period {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(255,255,255,0.5);
+  background-color: #333333;
+  line-height: 50px;
+}
+.space-size {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #86878B;
+  background-color: #FFFFFF;
+  line-height: 40px;
+}
