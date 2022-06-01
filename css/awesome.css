@@ -13,17 +13,17 @@ border-top: 2px solid #E72424;
 margin: auto;
 margin-bottom: 34px;
 }      
-.awesome-text p {
+.text-description p {
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
     color: #86878B;
     text-align: center;
-    margin-bottom: 68px;
 }
 .awesome-wrap {
     display: flex;
     justify-content: space-between;
+    margin-top: 68px;
 }
 .awesome-card {
     width: 350px;
