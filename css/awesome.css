@@ -1,32 +1,19 @@
-
-.title{
-    font-weight: 400;
-    font-size: 36px;
-    font-family: "Raleway";
-    color: #212121;
-    text-align: center;
-    margin-bottom: 34px;
-}
-.line {
-width: 64px;
-border-top: 2px solid #E72424;
-margin: auto;
-margin-bottom: 34px;
-}      
-.text-description p {
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 400;
-    color: #86878B;
-    text-align: center;
+h2::after {
+    content: "";
+    width: 64px;
+    border-top: 2px solid #E72424;
+    margin: 34px auto 34px;
+    display: block;
 }
 .awesome-wrap {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 68px;
+    margin: 68px -15px -15px 0;
 }
 .awesome-card {
     width: 350px;
+    margin: 0 15px;
 }
 .awesome-card-img {
     width: 70px;

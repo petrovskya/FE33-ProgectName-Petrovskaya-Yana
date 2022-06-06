@@ -1,6 +1,5 @@
 @import url(../css/cdn.css);
 @import url(../css/awesome.css);
-
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +13,25 @@ html {
 section {
     padding: 100px 0;
 }
+
 .container {
     max-width: 1170px;
-    margin: auto;
     padding: 0 15px;
+    margin: auto;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 36px;
+    font-family: "Raleway";
+    color: #212121;
+    text-align: center;
+    margin-bottom: 34px;
+}
+.section-description p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    text-align: center;
 }
