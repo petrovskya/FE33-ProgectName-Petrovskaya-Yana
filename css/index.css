@@ -1,5 +1,6 @@
 @import url(../css/cdn.css);
-@import url(../css/awesome.css);
+@import url(../css/pricing.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +29,13 @@ section {
     text-align: center;
     margin-bottom: 34px;
 }
+
+.line {
+width: 64px;
+border-top: 2px solid #E72424;
+margin: auto;
+margin-bottom: 34px;
+}  
 .section-description p {
     font-family: "Open Sans";
     font-size: 14px;
