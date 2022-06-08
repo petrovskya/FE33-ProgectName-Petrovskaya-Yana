@@ -1,0 +1,43 @@
+.axure {
+  background-image: url(../bg/city_axure_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.axure::after {
+  content: "";
+  display: block;
+  background-color: rgba(0,0,0,0.55);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+#title_axure {
+  color: #FFFFFF;
+}
+#title_axure::after {
+  border-top: 2px solid #FFFFFF;
+}
+
+#section-description_axure p{
+  color: rgba(255,255,255,0.8);
+}
+
+.axure-link {
+  width: 135px;
+  border: 1px solid white;
+  padding: 11px 26px;
+  margin: auto;
+  margin-top: 57px;
+}
+.axure-link a {
+  color: #FFFFFF;
+}
