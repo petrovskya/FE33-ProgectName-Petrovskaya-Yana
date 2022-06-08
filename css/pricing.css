@@ -1,7 +1,7 @@
 .pricing {
  background: #F5F5F5;
 }
-h2::after {
+.title::after {
   content: "";
   width: 64px;
   border-top: 2px solid #E72424;
