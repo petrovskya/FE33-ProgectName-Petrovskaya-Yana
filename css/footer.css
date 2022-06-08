@@ -1,0 +1,29 @@
+.footer {
+  background-color: black;
+  padding: 0 0;
+}
+.footer-wrap {
+
+}
+.social-media-link-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  max-width: 317px;
+  margin: auto;
+}
+.social-media-link-footer i {
+  color: rgba(255, 255, 259, 0.5);
+  font-size: 23px;
+}
+.copyright {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 259, 0.5);
+  line-height: 16.34px;
+  text-align: center;
+  padding-bottom: 15px;
+  margin-top: 18px;
+}

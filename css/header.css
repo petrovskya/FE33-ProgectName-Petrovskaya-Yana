@@ -7,11 +7,14 @@
   display: block;
   z-index: 100;
 }
-.container {
-}
+
 .header-wrap {
+  margin: 0 -15px;
   display: flex;
   justify-content: space-between;
+}
+.logo { 
+  margin: 0 15px;
 }
 .logo a {
   font-family: "Raleway";
@@ -28,8 +31,13 @@
 .header-content { 
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 489px;
   align-items: center;
+  margin: 0 15px;
+}
+.content-item {
+  margin: 0 15px;
 }
 .content-item a {
   font-family: "Open Sans";

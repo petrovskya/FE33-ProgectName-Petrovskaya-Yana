@@ -13,9 +13,7 @@
   width: 365px;
   /* margin-right: 129px; */
 }
-.social-wrap-links {
-  
-}
+
 .title_social {
   font-family: "Open Sans";
   font-size: 20px;
@@ -40,7 +38,7 @@
   flex-wrap: wrap;
   line-height: 110px;
 }
-i {
+.social-media-link i {
   color: rgba(134, 135, 139, 0.4);
   font-size: 42px;
 }
