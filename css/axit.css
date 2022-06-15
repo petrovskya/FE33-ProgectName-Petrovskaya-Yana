@@ -1,0 +1,132 @@
+.axit {
+  background-image: url(../bg/axit-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.axit::after {
+  content: "";
+  display: block;
+  background-color: rgba(0,0,0,0.45);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.container {
+  position: relative;
+  z-index: 2;
+}
+.axit-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+  align-items: center;
+}
+.axit-content {
+  margin: 0 15px;
+  max-width: 544px;
+}
+.axit-logo {
+  font-family: "Raleway";
+  font-size: 60px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 42px;
+  line-height: 70.31px;
+}
+.axit-logo-item {
+  color:  rgb(236,121,121);
+}
+.title-axit {
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42.26px;
+  color: white;
+}
+h1::after {
+  content: "";
+  display: block;
+  margin: 32px 0 39px;
+  width: 64px;
+  border-bottom: 1px solid white;
+}
+.axit-desc {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.78px;
+  color: rgba(255,255,255,0.36);
+  margin-bottom: 50px;
+}
+.axit-link {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.43px;
+  padding: 11px 26px;
+  border: 1px solid rgb(196,196,196);
+  width: 135px;
+}
+.axit-link a {
+  color: white;
+}
+.axit-form {
+  margin: 0 15px;
+  background-color: white;
+  max-width: 370px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.axit-form-title {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+  padding: 13px 59px;
+  margin-bottom: 44px;
+}
+.axit-form-title span {
+  color: rgb(236,121,121);
+}
+.axit-form-item {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(189,189,189);
+  margin-bottom: 19px;
+}
+.axit-form-item label {
+  display: block;
+}
+.axit-form-item input {
+  border: none;
+  border-bottom: 1px solid rgb(189,189,189);
+  max-width: 252px;
+  padding-left: 59px;
+  padding-right: 59px;
+}
+.axit-form-item input:focus {
+  outline: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+.axit-form-btn {
+  font-family: "Open Sans";
+  background-color: rgb(236,121,121);
+  border: none;
+  color: white;
+  line-height: 54px;
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  margin-top: 61px;
+}
+.axit-form-btn:active {
+ background-color: rgba(236,121,121,0.8);
+}
