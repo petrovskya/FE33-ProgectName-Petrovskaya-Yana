@@ -19,7 +19,7 @@
 }
 .form-content-left {
   margin: 0 15px;
-  max-width: 478px;
+  width: 40%;
 }
 .form-content-item {
   font-family: "Open Sans";
@@ -50,7 +50,7 @@
 }
 .form-content-right {
   margin: 0 15px;
-  max-width: 478px;
+  width: 40%;
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
