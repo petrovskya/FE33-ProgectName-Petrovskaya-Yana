@@ -68,3 +68,12 @@
 .tabs-content-img img {
  width: 100%;
 }
+.form-content-link {
+  width: 135px;
+  border: none;
+  padding: 11px 28px;
+  background-color: rgb(236,121,121);
+}
+.form-content-link a {
+  color: white;
+}
